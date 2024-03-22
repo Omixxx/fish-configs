@@ -13,6 +13,9 @@ alias ,g __copilot_git-assist
 alias ,gh __copilot_gh-assist 
 
 
+abbr -a alias 'alias |fzf'
+
+
 
 if status is-interactive 
   zoxide init fish --cmd cd | source 
